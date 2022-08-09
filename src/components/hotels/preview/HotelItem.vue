@@ -1,6 +1,6 @@
 <template>
   <div class="bg-white rounded-[12px] shadow-[0px_4px_20px_rgba(0,0,0,0.3)] flex flex-col max-w-[156px] sms:max-w-[295px]">
-    <img src="@/assets/images/search-image.png" alt="hotel-item">
+    <img src="@/assets/images/search-image.png" alt="hotel-item" class="h-[117px] sms:h-auto">
     <div class="px-[16px] pt-[23px] pb-[14px] flex flex-col sms:flex-row">
       <div class="left-side max-w-[144px]">
         <p class="text-black font-semibold mb-[4px] sms:mb-[8px] text-sm sms:text-x15">Shangri-La Toronto</p>

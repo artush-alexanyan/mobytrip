@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="map mb-[60px]">
+    <div class="map mb-[40px] sms:mb-[60px]">
       <p class="title text-black mb-[3px] text-lg font-extrabold block lg:hidden">Location</p>
       <p class="mb-[15px] text-gray font-medium block lg:hidden">500 E 4th St, Austin, TX 78701, United States</p>
       <iframe

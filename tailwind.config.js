@@ -25,6 +25,7 @@ module.exports = {
       },
       fontSize:{
         xxs: ['10px', '15px'],
+        x13: ['13px', '19px'],
         x15: ['15px', '20px'],
         x22: ['22px', '33px'],
         x26: ['26px', '39px'],
@@ -33,5 +34,5 @@ module.exports = {
       }
     },
   },
-  plugins: [],
+  plugins: [require('flowbite/plugin')],
 }

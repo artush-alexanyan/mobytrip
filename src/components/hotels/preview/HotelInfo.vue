@@ -1,6 +1,6 @@
 <template>
   <div class="container-w">
-    <div class="content flex justify-between mt-[47px] mb-[60px] gap-2">
+    <div class="content flex justify-between mt-[21px] sms:mt-[47px] sms:mb-[60px] mb-[36px] gap-2">
 
       <div class="info w-full lg:w-7/12">
         <div class="title-block flex justify-between mb-[20px] gap-2">
@@ -25,7 +25,7 @@
           </div>
         </div>
 
-        <ul class="tabs flex flex-wrap gap-2 w-full sms:max-w-[320px] mb-[40px]">
+        <ul class="tabs flex flex-wrap gap-2 w-full sms:max-w-[320px] mb-[21px] sms:mb-[40px]">
           <li class="text-xxs text-gray rounded-[5px] border border-blue-500 py-[3px] px-[8px] inline-flex">Hotels with spa</li>
           <li class="text-xxs text-gray rounded-[5px] border border-blue-500 py-[3px] px-[8px] inline-flex">Green Hotel</li>
           <li class="text-xxs text-gray rounded-[5px] border border-blue-500 py-[3px] px-[8px] inline-flex">Bussines hotels</li>
