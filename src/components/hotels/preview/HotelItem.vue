@@ -1,0 +1,38 @@
+<template>
+  <div class="bg-white rounded-[12px] shadow-[0px_4px_20px_rgba(0,0,0,0.3)] flex flex-col max-w-[156px] sms:max-w-[295px]">
+    <img src="@/assets/images/search-image.png" alt="hotel-item">
+    <div class="px-[16px] pt-[23px] pb-[14px] flex flex-col sms:flex-row">
+      <div class="left-side max-w-[144px]">
+        <p class="text-black font-semibold mb-[8px] text-x15">Shangri-La Toronto</p>
+        <div class="flex gap-2 mb-[12px]">
+          <img src="@/assets/images/small-star.png" alt="star">
+          <img src="@/assets/images/small-star.png" alt="star">
+          <img src="@/assets/images/small-star.png" alt="star">
+          <img src="@/assets/images/small-star.png" alt="star">
+          <img src="@/assets/images/small-star.png" alt="star">
+        </div>
+        <p class="text-gray text-xs font-medium">500 E 4th St, Austin, TX 78701, United States</p>
+      </div>
+
+      <div class="right-side text-left sms:text-right">
+        <p class="text-green font-extrabold text-x22">$ 354,00</p>
+        <p class="text-gray font-medium text-xs">per night</p>
+
+        <div class="mt-[2px]">
+          <p class="text-black font-bold">$ 429,00</p>
+          <p class="text-xs text-gray-500 font-medium">includes taxes & fees</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "HotelItem"
+}
+</script>
+
+<style scoped>
+
+</style>

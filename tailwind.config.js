@@ -18,12 +18,15 @@ module.exports = {
         orange: '#FF9F2F',
         red: '#E25151',
         gray: '#6F7096',
+        'gray-500': '#615F6A',
         grey: '#3E3C49',
         green: '#139A1C',
         'green-500': "#C3F4A5"
       },
       fontSize:{
         xxs: ['10px', '15px'],
+        x15: ['15px', '20px'],
+        x22: ['22px', '33px'],
         x26: ['26px', '39px'],
         x32: ['32px', '48px'],
         x38: ['38px', '57px'],
