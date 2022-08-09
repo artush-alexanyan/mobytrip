@@ -34,6 +34,11 @@
           <li class="text-xxs text-gray rounded-[5px] border border-blue-500 py-[3px] px-[8px] inline-flex">GDowntown Austin</li>
         </ul>
 
+        <div class="w-full mb-[40px] block sms:hidden">
+          <button class="bg-blue font-bold text-[#F8F8F8] py-[17px] rounded-[10px] w-full text-center mb-[18px]">Choose Room</button>
+          <div class="bg-[#F8F8F8] w-full h-[6px]"></div>
+        </div>
+
         <div class="description mb-[40px]">
           <p class="title text-black mb-[10px] text-lg font-extrabold">Property Description</p>
           <p class="text-sm sms:text-base text-gray font-medium mb-[15px]">Boasting a skylit indoor pool and 2 on-site dining options,

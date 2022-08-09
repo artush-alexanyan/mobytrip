@@ -1,9 +1,9 @@
 <template>
   <div class="bg-[#E8E9F3]">
-    <div class="container-w pt-[60px] pb-[100px]">
-      <h2 class="text-black font-extrabold text-x26 mb-[20px]">Your search</h2>
+    <div class="container-w pt-[36px] sms:pt-[60px] pb-[40px] sms:pb-[100px]">
+      <h2 class="text-black font-extrabold text-x26 mb-[20px]">Nearby Hotels</h2>
 
-      <div class="content flex flex-wrap gap-5">
+      <div class="content flex flex-wrap gap-7 sms:gap-5">
         <HotelItem />
         <HotelItem />
         <HotelItem />
